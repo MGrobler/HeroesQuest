@@ -31,15 +31,6 @@ namespace Platformer.Mechanics
         internal int frame = 0;
         internal bool collected = false;
 
-        private int _score;
-        public Text CurrenScoreTxtElement;
-        void Start()
-        {
-          Debug.Log("Start called.");
-          //_score = 0;
-          //CurrenScoreTxtElement.text = _score.ToString();
-        }
-
         void Awake()
         {
             _renderer = GetComponent<SpriteRenderer>();
@@ -55,9 +46,9 @@ namespace Platformer.Mechanics
             if (player != null) OnPlayerEnter(player);
 
             // Increment score for collected Items
-            _score++;
-            CurrenScoreTxtElement.text = _score.ToString();
-         }
+            var playerCollectables = other.gameObject.GetComponent<PlayerInventory>();
+            if (playerCollectables != null) playerCollectables.IncrementScore();
+        }
 
         void OnPlayerEnter(PlayerController player)
         {
