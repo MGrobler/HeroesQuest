@@ -11,7 +11,7 @@ public class PlayerInventory : MonoBehaviour
   void Start()
   {
     score = 0;
-    PlayerScoreTxtElem.text = string.Format("{0} \n Score", score.ToString());
+    PlayerScoreTxtElem.text = string.Format("{0}\nScore", score.ToString());
   }
 
   // Update is called once per frame
