@@ -36,8 +36,8 @@ namespace Platformer.Mechanics
         void Start()
         {
           Debug.Log("Start called.");
-          _score = 0;
-          CurrenScoreTxtElement.text = _score.ToString();
+          //_score = 0;
+          //CurrenScoreTxtElement.text = _score.ToString();
         }
 
         void Awake()
