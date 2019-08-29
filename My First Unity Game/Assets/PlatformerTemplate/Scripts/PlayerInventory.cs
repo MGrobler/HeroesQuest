@@ -11,7 +11,7 @@ public class PlayerInventory : MonoBehaviour
   void Start()
   {
     score = 0;
-    PlayerScoreTxtElem.text = score.ToString();
+    PlayerScoreTxtElem.text = string.Format("{0} \n Score", score.ToString());
   }
 
   // Update is called once per frame
@@ -23,6 +23,12 @@ public class PlayerInventory : MonoBehaviour
   public void IncrementScore()
   {
     score++;
-    PlayerScoreTxtElem.text = score.ToString();
+    PlayerScoreTxtElem.text = string.Format("{0} \n Score", score.ToString());
+  }
+
+  public void ResetScore()
+  {
+    score = 0;
+    PlayerScoreTxtElem.text = string.Format("{0} \n Score", score.ToString());
   }
 }
