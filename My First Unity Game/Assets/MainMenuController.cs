@@ -23,5 +23,10 @@ public class MainMenuController : MonoBehaviour
     //SceneManager.LoadScene("Level_1");
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
   }
+
+  public void ForceExit()
+  {
+    Application.Quit();
+  }
   #endregion
 }
