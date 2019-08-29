@@ -1,5 +1,6 @@
 using Platformer.Gameplay;
 using UnityEngine;
+using UnityEngine.UI;
 using static Platformer.Core.Simulation;
 
 
@@ -30,6 +31,15 @@ namespace Platformer.Mechanics
         internal int frame = 0;
         internal bool collected = false;
 
+        private int _score;
+        public Text CurrenScoreTxtElement;
+        void Start()
+        {
+          Debug.Log("Start called.");
+          _score = 0;
+          CurrenScoreTxtElement.text = _score.ToString();
+        }
+
         void Awake()
         {
             _renderer = GetComponent<SpriteRenderer>();
@@ -43,7 +53,11 @@ namespace Platformer.Mechanics
             //only exectue OnPlayerEnter if the player collides with this token.
             var player = other.gameObject.GetComponent<PlayerController>();
             if (player != null) OnPlayerEnter(player);
-        }
+
+            // Increment score for collected Items
+            _score++;
+            CurrenScoreTxtElement.text = _score.ToString();
+         }
 
         void OnPlayerEnter(PlayerController player)
         {
