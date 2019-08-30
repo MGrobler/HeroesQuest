@@ -2,56 +2,24 @@ fileFormatVersion: 2
 guid: fe68c6e1242e94a9eab222e1f49440ff
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Unity_Baddie_Idle_0
-    21300002: Unity_Baddie_Idle_1
-    21300004: Unity_Baddie_Idle_2
-    21300006: Unity_Baddie_Idle_3
-    21300008: Unity_Baddie_Idle_4
-    21300010: Unity_Baddie_Idle_5
-    21300012: Unity_Baddie_Idle_6
-    21300014: Unity_Baddie_Idle_7
-    21300016: Unity_Baddie_Idle_8
-    21300018: Unity_Baddie_Idle_9
-    21300020: Unity_Baddie_Idle_10
-    21300022: Unity_Baddie_Idle_11
-    21300024: Unity_Baddie_Idle_12
-    21300026: Unity_Baddie_Idle_13
-    21300028: Unity_Baddie_Idle_14
-    21300030: Unity_Baddie_Idle_15
-    21300032: Unity_Baddie_Idle_16
-    21300034: Unity_Baddie_Idle_17
-    21300036: Unity_Baddie_Idle_18
-    21300038: Unity_Baddie_Idle_19
-    21300040: Unity_Baddie_Idle_20
-    21300042: Unity_Baddie_Idle_21
-    21300044: Unity_Baddie_Idle_22
-    21300046: Unity_Baddie_Idle_23
-    21300048: Unity_Baddie_Idle_24
-    21300050: Unity_Baddie_Idle_25
-    21300052: Unity_Baddie_Idle_26
-    21300054: Unity_Baddie_Idle_27
-    21300056: Unity_Baddie_Idle_28
-    21300058: Unity_Baddie_Idle_29
-    21300060: Unity_Baddie_Idle_30
-    21300062: Unity_Baddie_Idle_31
-    21300064: Unity_Baddie_Idle_32
-    21300066: Unity_Baddie_Idle_33
-    21300068: Unity_Baddie_Idle_34
-    21300070: Unity_Baddie_Idle_35
-    21300072: Unity_Baddie_Idle_36
-    21300074: Unity_Baddie_Idle_37
-    21300076: Unity_Baddie_Idle_38
-    21300078: Unity_Baddie_Idle_39
-    21300080: Unity_Baddie_Idle_40
-    21300082: Unity_Baddie_Idle_41
-    21300084: Unity_Baddie_Idle_42
-    21300086: Unity_Baddie_Idle_43
-    21300088: Unity_Baddie_Idle_44
-    21300090: Unity_Baddie_Idle_45
-    21300092: Unity_Baddie_Idle_46
-    21300094: Unity_Baddie_Idle_47
+    21300000: EnemyIdle_0
+    21300002: EnemyIdle_1
+    21300004: EnemyIdle_2
+    21300006: EnemyIdle_3
+    21300008: EnemyIdle_4
+    21300010: EnemyIdle_5
+    21300012: EnemyIdle_6
+    21300014: EnemyIdle_7
+    21300016: EnemyIdle_8
+    21300018: EnemyIdle_9
+    21300020: EnemyIdle_10
+    21300022: EnemyIdle_11
+    21300024: EnemyIdle_12
+    21300026: EnemyIdle_13
+    21300028: EnemyIdle_14
+    21300030: EnemyIdle_15
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,7 +58,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -113,7 +81,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -124,7 +92,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -135,7 +103,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -143,961 +111,321 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_0
+      name: EnemyIdle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 630
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad35927d023564ae597175a79e15f6f6
+      spriteID: 59dd4731a6a315f4b8f471647dd4135d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 630
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69645ac1ed3a44c45a484fcc8bfd5859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 630
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62cd57f30c28141dabe7d89155fae797
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 630
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7c15b5e7c92b446f9f2b24dfaba91b1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_4
+      name: EnemyIdle_1
       rect:
         serializedVersion: 2
         x: 512
-        y: 630
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 926d28964069c4d9e8dfc3e9b192361c
+      spriteID: 7c181e88f7c01434d93e10c4f39eaeb2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_5
+      name: EnemyIdle_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 630
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 526da65e8c9d74b62a825e4ea71df623
+      spriteID: 1bcc8dd86b3429e4fbd2fe1db358dcc3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_6
+      name: EnemyIdle_3
       rect:
         serializedVersion: 2
-        x: 768
-        y: 630
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9e56e51b096a4ba8a06442999f79f8f
+      spriteID: d7e9dfed65ebfdc4d8852531998e8972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_7
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 630
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac9245d5759844336b3e4dfb16e61f2d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_8
+      name: EnemyIdle_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 504
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85c82ea74b9ec4742ba4c2e4cfeaff15
+      spriteID: 6245529ff3836f44ca2338f2c730fb68
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_9
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 504
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6f96471704634139aedfb057bcf0602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_10
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 504
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdda800ffba8448979336ee5ca50bde6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_11
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 504
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e53167bfd12504a34a26862f22494210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_12
+      name: EnemyIdle_5
       rect:
         serializedVersion: 2
         x: 512
-        y: 504
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab7ed1e5e369d40b2aca22178e8bab85
+      spriteID: a88a935667447004ca433920d4522696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_13
+      name: EnemyIdle_6
       rect:
         serializedVersion: 2
-        x: 640
-        y: 504
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1026
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8caaac263d7ed4233bf436923301399e
+      spriteID: 2feaa4df1299e3847b587a9148653bbd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_14
+      name: EnemyIdle_7
       rect:
         serializedVersion: 2
-        x: 768
-        y: 504
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf7a220017bdb4977aa89e1b66226e2a
+      spriteID: b7a02734747b81a40bc87c0156502143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_15
+      name: EnemyIdle_8
       rect:
         serializedVersion: 2
-        x: 896
-        y: 504
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 514
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc9b1613569424bfb99f5799a1041289
+      spriteID: ecf294d524ce03748b265e41912d030d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 378
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3aa62adb5676949caa132658b5598e22
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_17
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 378
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e559dd378376842e5becad90b8dd6a11
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_18
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 378
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37ee6ea20c80c4534badcff71daa563e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_19
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 378
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0d2cdd1299fb4f5196d44f6557576b0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_20
+      name: EnemyIdle_9
       rect:
         serializedVersion: 2
         x: 512
-        y: 378
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d23ed98ef71e4f6082825f56e69257c
+      spriteID: fddc8932a428535479d49ef41151c31e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_21
+      name: EnemyIdle_10
       rect:
         serializedVersion: 2
-        x: 640
-        y: 378
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d7030030629948cbb5ab8b5ffedcd35
+      spriteID: 27f1bbbe80c19564c89dc80381a85241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_22
+      name: EnemyIdle_11
       rect:
         serializedVersion: 2
-        x: 768
-        y: 378
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14771cb93597447cc90fc41f9089c630
+      spriteID: 524e18c13bb7b7747ad862ddc432c4e7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_23
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 378
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 186e0a168b6b74d1092c9c80dc2911e1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_24
+      name: EnemyIdle_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74c6340b7d3a74016a3148ac94fc345b
+      spriteID: 69690f540c459e544bea9348960fccf7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_25
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7ec9cca862994dae9466c781c1d807f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_26
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 816b8cf875183496f8d48e85dfff30e3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_27
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9273f510e64134ec1955251496e431fb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_28
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccf2853e5932d477588193e58c93a4be
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_29
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1d83843581394306ac581343b6f0f2e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_30
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab4dc3cbf5ff048e78c4d830ad3c1cd5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_31
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 422c1889e1da44c09a20c1a0ebcc42c9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_32
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37bca26c5d7a04aae9b92768929ca490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_33
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d552b82a2bf604632b6216edb7e6d70b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_34
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5cf492f217a843ecbf19c1bd5e4bee5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_35
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14c8654fecf3a4a93a6e18f727700d88
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_36
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b14e4494a743844d084074058c89bf7d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_37
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a01cd65fa68a4c4e90a0810febafb74
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_38
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb7be46b664b44120be84f227ab95036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_39
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02e7b1644799d488dafa4a32ab380db6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_40
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eaba88d34915045538b155c73fb41b64
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_41
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a5667dbbee944e24b1b4dbf264d079d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_42
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c51b5bfffdf440c1a8e2d3a0cf8e31e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_43
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c2038092dee249b8a6a3011bb7487eb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_44
+      name: EnemyIdle_13
       rect:
         serializedVersion: 2
         x: 512
         y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5be21aa319e8d405b9cbc05ccd0c8ec2
+      spriteID: 243d9bd9a32ac7c45a2248c7f9221053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_45
+      name: EnemyIdle_14
       rect:
         serializedVersion: 2
-        x: 640
+        x: 1024
         y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bc20729609f242c8ba581a17d3c6352
+      spriteID: 0613b747b218e1c4993c5073c95cec03
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_Baddie_Idle_46
+      name: EnemyIdle_15
       rect:
         serializedVersion: 2
-        x: 768
+        x: 1536
         y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0039bc910cef42e3975982da3f0b24b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_Baddie_Idle_47
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4bf2d52177044a68829a14adec0d4c7
+      spriteID: 737d50f568e24e34c92d3929f40c704c
       vertices: []
       indices: 
       edges: []
@@ -1105,7 +433,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: cccc4f084eebb4ed8816ddceac6c2f9d
+    spriteID: 692bdbe80986cc746ac8579f115d3cfc
     vertices: []
     indices: 
     edges: []
