@@ -2,28 +2,45 @@ fileFormatVersion: 2
 guid: 1a4bd6d8b694c4f65869fe4d44a0198b
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Unity_MC_render_spawn_0
-    21300002: Unity_MC_render_spawn_1
-    21300004: Unity_MC_render_spawn_2
-    21300006: Unity_MC_render_spawn_3
-    21300008: Unity_MC_render_spawn_4
-    21300010: Unity_MC_render_spawn_5
-    21300012: Unity_MC_render_spawn_6
-    21300014: Unity_MC_render_spawn_7
-    21300016: Unity_MC_render_spawn_8
-    21300018: Unity_MC_render_spawn_9
-    21300020: Unity_MC_render_spawn_10
-    21300022: Unity_MC_render_spawn_11
-    21300024: Unity_MC_render_spawn_12
-    21300026: Unity_MC_render_spawn_13
-    21300028: Unity_MC_render_spawn_14
-    21300030: Unity_MC_render_spawn_15
-    21300032: Unity_MC_render_spawn_16
-    21300034: Unity_MC_render_spawn_17
-    21300036: Unity_MC_render_spawn_18
-    21300038: Unity_MC_render_spawn_19
+    21300000: PlayerSpawn_0
+    21300002: PlayerSpawn_1
+    21300004: PlayerSpawn_2
+    21300006: PlayerSpawn_3
+    21300008: PlayerSpawn_4
+    21300010: PlayerSpawn_5
+    21300012: PlayerSpawn_6
+    21300014: PlayerSpawn_7
+    21300016: PlayerSpawn_8
+    21300018: PlayerSpawn_9
+    21300020: PlayerSpawn_10
+    21300022: PlayerSpawn_11
+    21300024: PlayerSpawn_12
+    21300026: PlayerSpawn_13
+    21300028: PlayerSpawn_14
+    21300030: PlayerSpawn_15
+    21300032: PlayerSpawn_16
+    21300034: PlayerSpawn_17
+    21300036: PlayerSpawn_18
+    21300038: PlayerSpawn_19
+    21300040: PlayerSpawn_20
+    21300042: PlayerSpawn_21
+    21300044: PlayerSpawn_22
+    21300046: PlayerSpawn_23
+    21300048: PlayerSpawn_24
+    21300050: PlayerSpawn_25
+    21300052: PlayerSpawn_26
+    21300054: PlayerSpawn_27
+    21300056: PlayerSpawn_28
+    21300058: PlayerSpawn_29
+    21300060: PlayerSpawn_30
+    21300062: PlayerSpawn_31
+    21300064: PlayerSpawn_32
+    21300066: PlayerSpawn_33
+    21300068: PlayerSpawn_34
+    21300070: PlayerSpawn_35
+    21300072: PlayerSpawn_36
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -62,7 +79,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -115,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_0
+      name: PlayerSpawn_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 378
-        width: 128
-        height: 126
+        y: 3581
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,19 +146,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed761e03d4e2543fe935cf7dd51387e8
+      spriteID: 7aed9e1363c766c48a47078872622769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_1
+      name: PlayerSpawn_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 378
-        width: 128
-        height: 126
+        x: 515
+        y: 3581
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,19 +166,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9607cab00cdc4740aa78f323753ea97
+      spriteID: 4bc430e3ee9516848991be07150f3897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_2
+      name: PlayerSpawn_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 378
-        width: 128
-        height: 126
+        x: 1030
+        y: 3581
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,19 +186,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c04558457d2454372b15242944163e8c
+      spriteID: 3d5aef6828a56424f989913b7fe773b0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_3
+      name: PlayerSpawn_3
       rect:
         serializedVersion: 2
-        x: 384
-        y: 378
-        width: 128
-        height: 126
+        x: 1545
+        y: 3581
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,19 +206,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae90ed4e9fbe140b58a42897bffef087
+      spriteID: c9293194276706044813babe037b6412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_4
+      name: PlayerSpawn_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 378
-        width: 128
-        height: 126
+        x: 2060
+        y: 3581
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,19 +226,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b1c8639a80cf41fc8fbaf9e46e37157
+      spriteID: d9fc6f3d781c15845a8212c2fef8c48f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_5
+      name: PlayerSpawn_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 252
-        width: 128
-        height: 126
+        x: 2575
+        y: 3581
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,19 +246,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d2c29ef07a814fde9024528273de6af
+      spriteID: 2f0be54ee3d89c642b66bf4d3d5037fa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_6
+      name: PlayerSpawn_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 252
-        width: 128
-        height: 126
+        x: 3090
+        y: 3581
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,79 +266,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 884e3c5b2afb14c37bd378cdfc247767
+      spriteID: 2c9c501fb2a386c48bd6fcf30c6633d2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_7
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0973f836febcb4f4893fc9c5402f0afb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_spawn_8
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c7569c9a94b44eeb857edde9cfd0dcf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_spawn_9
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a5050037b40a484c9d2910ee59d0b1e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_spawn_10
+      name: PlayerSpawn_7
       rect:
         serializedVersion: 2
         x: 0
-        y: 126
-        width: 128
-        height: 126
+        y: 3066
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,19 +286,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eb8fca533f1f4c4fb7fc71629c06227
+      spriteID: bef20d18c0836df49b129c5fcecfbb84
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_11
+      name: PlayerSpawn_8
       rect:
         serializedVersion: 2
-        x: 128
-        y: 126
-        width: 128
-        height: 126
+        x: 515
+        y: 3066
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,19 +306,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76c0d4f91eec74a22a911cbd166c9973
+      spriteID: f95da322cf4eccd40a40f293e0b26706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_12
+      name: PlayerSpawn_9
       rect:
         serializedVersion: 2
-        x: 256
-        y: 126
-        width: 128
-        height: 126
+        x: 1030
+        y: 3066
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,19 +326,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a971be4bc53c64230b382b4acb497045
+      spriteID: e3763f846d0b84c4eb715e11c1377893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_13
+      name: PlayerSpawn_10
       rect:
         serializedVersion: 2
-        x: 384
-        y: 126
-        width: 128
-        height: 126
+        x: 1545
+        y: 3066
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,19 +346,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f731d991944b4d229e39e55b19ed5da
+      spriteID: 5555f4fa138b61c488e2d842b6419b3f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_14
+      name: PlayerSpawn_11
       rect:
         serializedVersion: 2
-        x: 512
-        y: 126
-        width: 128
-        height: 126
+        x: 2060
+        y: 3066
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,19 +366,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0e8187b7bbfa49179a23f100089767a
+      spriteID: 1e4515226ad3f69458e837af832c0f51
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_15
+      name: PlayerSpawn_12
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 3066
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1a8190f539e3041aad0b837a140272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_13
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 3066
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a31c0373b72c1744aee904ec4a8e18e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_14
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 128
-        height: 126
+        y: 2551
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -429,19 +426,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0dd81b06457c46b3af054c3b4717e20
+      spriteID: 102938837ba2e8747aa7d5ca51c9391a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_16
+      name: PlayerSpawn_15
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 126
+        x: 515
+        y: 2551
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,19 +446,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50558eab037d24de2836ed2025832360
+      spriteID: 4aaa8e8e5354ab240a2046791043ef49
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_17
+      name: PlayerSpawn_16
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 126
+        x: 1030
+        y: 2551
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,19 +466,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6038aaf61ab624e578d634fb6d6dfc2d
+      spriteID: da24f86cd6ecce3418fe4617fd6d3b05
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_18
+      name: PlayerSpawn_17
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 126
+        x: 1545
+        y: 2551
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,19 +486,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e10cb21a20b974d11b13117f4f7591fc
+      spriteID: b8b735fa5a5989d4aac29226b3d671c7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_spawn_19
+      name: PlayerSpawn_18
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 126
+        x: 2060
+        y: 2551
+        width: 515
+        height: 515
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,7 +506,367 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 428986f37d84143e6afe1bcef239f891
+      spriteID: 22c0e586c0f2f57439dd7fe8af6dd387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_19
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 2551
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0e77a16e587d349bd531025c8c8fcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_20
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 2551
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8187f7420cf5baf4e923ba40a9fbf8f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2036
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a769c2442797d468115d3f0587ceee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_22
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2036
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3fff6c28bda9d43be4b6bdd6037fe5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_23
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 2036
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47d2a8a6b4bc2a4e86225088710a88b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_24
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 2036
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d48ffa8d0998904fbca5e3c918edc77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_25
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 2036
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebd693734d8a1044896f78a6f99e047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_26
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 2036
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7e7b25ed3250e42b5b717d4b1e7a26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_27
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 2036
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4048e2eca41942647af384f9d84c10de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1521
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af68695066952fd4987a9100a0c582a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_29
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1521
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8b5c734dbbb5847beebadd48f588fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_30
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1521
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b092ebd71cee54e9ac1f87ba11019b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_31
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1521
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c7709ccf7921b4fa26a323c2be192c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_32
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1521
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9650537c080319443920bb7f1da20207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_33
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 1521
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708839a4726fdbf499025db094b0cbdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_34
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1521
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20107b4a93d4bdb4683c1704724a7918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1006
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9840048da207764429d9cef66330d34f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSpawn_36
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1006
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c05bd4d3410bd45a230b7f206319dc
       vertices: []
       indices: 
       edges: []
@@ -517,7 +874,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d9b7f9a7014734ddf9b8901d991a7f59
+    spriteID: 18def15985e69ac40a0b70f87c60bd7b
     vertices: []
     indices: 
     edges: []
