@@ -71,7 +71,8 @@ namespace Platformer.Mechanics
     public void IncrementScore()
     {
       _score++;
-      UpdateScoreText(_score); ;
+      UpdateScoreText(_score);
+      Debug.Log("Increasing score now!");
     }
 
     private void UpdateScoreText(int score)
