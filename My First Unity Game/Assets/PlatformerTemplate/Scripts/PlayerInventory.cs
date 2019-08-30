@@ -17,18 +17,18 @@ public class PlayerInventory : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-
+    PlayerPrefs.SetInt("PreviousScore", score);
   }
 
   public void IncrementScore()
   {
     score++;
-    PlayerScoreTxtElem.text = string.Format("{0} \n Score", score.ToString());
+    PlayerScoreTxtElem.text = string.Format("{0}\nScore", score.ToString());
   }
 
   public void ResetScore()
   {
     score = 0;
-    PlayerScoreTxtElem.text = string.Format("{0} \n Score", score.ToString());
+    PlayerScoreTxtElem.text = string.Format("{0}\nScore", score.ToString());
   }
 }

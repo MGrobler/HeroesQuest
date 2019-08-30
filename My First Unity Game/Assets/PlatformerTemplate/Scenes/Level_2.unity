@@ -5633,6 +5633,18 @@ Transform:
   m_Father: {fileID: 200859935}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1745974807 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6197111127311259869, guid: 82ced0c68da6ee44ba95350ebea123ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 271312716}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1799117606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6112,6 +6124,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.062515914, y: -0.11383623}
   m_Size: {x: 0.33442557, y: 0.5519973}
   m_Direction: 0
+--- !u!114 &1937837538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937837535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586110f9a06f3db4999fe363ecb78346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentScore: {fileID: 1745974807}
 --- !u!1 &1956466885
 GameObject:
   m_ObjectHideFlags: 0
