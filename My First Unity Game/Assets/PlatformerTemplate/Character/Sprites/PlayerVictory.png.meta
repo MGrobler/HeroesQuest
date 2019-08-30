@@ -2,21 +2,29 @@ fileFormatVersion: 2
 guid: 591161ddccde24e77bc04c29ec2742eb
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Unity_MC_render_victory_0
-    21300002: Unity_MC_render_victory_1
-    21300004: Unity_MC_render_victory_2
-    21300006: Unity_MC_render_victory_3
-    21300008: Unity_MC_render_victory_4
-    21300010: Unity_MC_render_victory_5
-    21300012: Unity_MC_render_victory_6
-    21300014: Unity_MC_render_victory_7
-    21300016: Unity_MC_render_victory_8
-    21300018: Unity_MC_render_victory_9
-    21300020: Unity_MC_render_victory_10
-    21300022: Unity_MC_render_victory_11
-    21300024: Unity_MC_render_victory_12
+    21300000: PlayerVictory_0
+    21300002: PlayerVictory_1
+    21300004: PlayerVictory_2
+    21300006: PlayerVictory_3
+    21300008: PlayerVictory_4
+    21300010: PlayerVictory_5
+    21300012: PlayerVictory_6
+    21300014: PlayerVictory_7
+    21300016: PlayerVictory_8
+    21300018: PlayerVictory_9
+    21300020: PlayerVictory_10
+    21300022: PlayerVictory_11
+    21300024: PlayerVictory_12
+    21300026: PlayerVictory_13
+    21300028: PlayerVictory_14
+    21300030: PlayerVictory_15
+    21300032: PlayerVictory_16
+    21300034: PlayerVictory_17
+    21300036: PlayerVictory_18
+    21300038: PlayerVictory_19
+    21300040: PlayerVictory_20
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -55,7 +63,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -108,261 +116,421 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unity_MC_render_victory_0
+      name: PlayerVictory_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 3581
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b12a2ce6d6e4a42498dc01fed89064f0
+      spriteID: 6105676cf82eb2d45be6476d7152822b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_victory_1
+      name: PlayerVictory_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 515
+        y: 3581
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a30526a974174482be72984dd49384e
+      spriteID: a6a8b88fecc1be14099b84a2ca8199a5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_victory_2
+      name: PlayerVictory_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1030
+        y: 3581
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 511216a677c484482a6bfea3581d899c
+      spriteID: ba5f3d6346a0b16418e35d5878725234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_victory_3
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e9beea06bfa74c65a661bad133de5f7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_victory_4
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e2af98489bf440f98be745eb9222fe8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_victory_5
+      name: PlayerVictory_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 3066
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb8d88138010b4124939467b6463d941
+      spriteID: 11a1840f8efcaf94a9b341cee913b849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_victory_6
+      name: PlayerVictory_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 515
+        y: 3066
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b7ecdce93c684e9383e069e279a912d
+      spriteID: 9335c6979c080d547ab54c5708fab7f2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_victory_7
+      name: PlayerVictory_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1030
+        y: 3066
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a478c3807ab3412cac4381c64bb0317
+      spriteID: 37e64a7bf6ed43e489778c04c6fbc19a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_victory_8
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffd3e7f8f44ab4079a739d961e191de7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_victory_9
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fad35774cf0d4abd9c515cc7fb09847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_victory_10
+      name: PlayerVictory_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2551
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e78571b0228c94344ad42147c725fc58
+      spriteID: 3a9fe36be7d06ee449207b15b51696b9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_victory_11
+      name: PlayerVictory_7
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 515
+        y: 2551
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9a723e33dbf9472b9c8362f847c726d
+      spriteID: 5721bc6743609b547ac533c6b347d80c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_victory_12
+      name: PlayerVictory_8
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1030
+        y: 2551
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 030ab31acfd234d67b2bf7b894bd0007
+      spriteID: 5fae1fb468931d4488e4642c54d9d663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2036
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a14dab65b154040a1231764da3ccde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_10
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2036
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b061ca2c432684d85e53218db8496a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_11
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 2036
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6872239ad3d7b4ea912f9afb0fa6bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1521
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cacf3b675079547aef5bda6fd782d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_13
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1521
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab38c08c8c179af4ab86f6265a6776a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_14
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1521
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8445d3116faafe442816f2cdc184ed4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1006
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a22da0ba9fd664eb1c57f861634fa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_16
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1006
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cdd7823fdc2f345a2bb2902428ad78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_17
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1006
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c638d762a68061d41b62cfcf5b365014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 491
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d8b0fa66888824c804b30dfea08109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_19
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 482
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3770b8e48caedbb4cbab99ddf263bd33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerVictory_20
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 491
+        width: 515
+        height: 515
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a19560582dd3b49a854bbcbfa855f9
       vertices: []
       indices: 
       edges: []
@@ -370,7 +538,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d4ed9043e98aa4e829208b78ef0f32ad
+    spriteID: eff93bc6cc360e240b179416942c0865
     vertices: []
     indices: 
     edges: []
