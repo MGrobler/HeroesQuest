@@ -2,6 +2,7 @@ using System;
 using Platformer.Gameplay;
 using UnityEngine;
 using static Platformer.Core.Simulation;
+using UnityEngine.UI;
 
 namespace Platformer.Mechanics
 {
@@ -10,6 +11,8 @@ namespace Platformer.Mechanics
     /// </summary>
     public class Health : MonoBehaviour
     {
+        private int _score;
+        public Text PlayerScore;
         /// <summary>
         /// The maximum hit points for the entity.
         /// </summary>
@@ -21,6 +24,12 @@ namespace Platformer.Mechanics
         public bool IsAlive => currentHP > 0;
 
         int currentHP;
+
+        void Start()
+        {
+          _score = 0;
+         this.UpdateScoreText(_score);
+        }
 
         /// <summary>
         /// Increment the HP of the entity.
@@ -50,11 +59,28 @@ namespace Platformer.Mechanics
         public void Die()
         {
             while (currentHP > 0) Decrement();
+            // reset score
+            UpdateScoreText(0);
         }
 
         void Awake()
         {
             currentHP = maxHP;
         }
+
+    public void IncrementScore()
+    {
+      _score++;
+      UpdateScoreText(_score); ;
     }
+
+    private void UpdateScoreText(int score)
+    {
+      if (this.PlayerScore != null)
+      {
+        PlayerScore.text = string.Format("{0}\nScore", score.ToString());
+      }
+    }
+
+  }
 }

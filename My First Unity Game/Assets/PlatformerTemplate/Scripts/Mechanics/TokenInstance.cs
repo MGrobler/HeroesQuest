@@ -48,6 +48,9 @@ namespace Platformer.Mechanics
             // Increment score for collected Items
             var playerCollectables = other.gameObject.GetComponent<PlayerInventory>();
             if (playerCollectables != null) playerCollectables.IncrementScore();
+
+            var playerHealth = other.gameObject.GetComponent<Health>();
+            if (playerHealth != null) playerHealth.IncrementScore();
         }
 
         void OnPlayerEnter(PlayerController player)
@@ -62,6 +65,8 @@ namespace Platformer.Mechanics
             var ev = Schedule<PlayerTokenCollision>();
             ev.token = this;
             ev.player = player;
+
+            Debug.Log("Same:  " + player.name);
         }
     }
 }

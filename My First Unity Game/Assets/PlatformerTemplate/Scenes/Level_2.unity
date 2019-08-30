@@ -6068,6 +6068,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.22775541
       objectReference: {fileID: 0}
+    - target: {fileID: 6082575806313374961, guid: 7d60c822c3f1b408ea7a00ecdb5e047a,
+        type: 3}
+      propertyPath: PlayerScore
+      value: 
+      objectReference: {fileID: 1745974807}
     m_RemovedComponents:
     - {fileID: 1824045667, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7d60c822c3f1b408ea7a00ecdb5e047a, type: 3}
